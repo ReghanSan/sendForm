@@ -26,7 +26,7 @@ function formSubmit() {
 
     const message = {
             success: 'Спасибо, ваша заявка отправлена!',
-            failure: 'Ошибка на сервере. <br>Попробуйте позже'
+            failure: 'Ошибка на сервере.<br>Попробуйте позже'
         },
         form = document.querySelector('.form'),
         input = form.getElementsByTagName('input'),
